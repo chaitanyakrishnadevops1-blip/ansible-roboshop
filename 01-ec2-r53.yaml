@@ -8,6 +8,9 @@
     domain_name: "daws86s.cyou"
     instances:
       - mongodb
+      - mysql
+      - rabbitmq
+      - redis
 
   tasks:
     - name: create ec2 instance
