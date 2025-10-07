@@ -5,7 +5,7 @@
     ami_id: ami-09c813fb71547fc4f
     sg_id: sg-03ad1decd357277c0
     zone_id: Z07796551BVY32FNM4MO7
-    domain_name: "daws86s.cyou"
+    domain_name: "daws-86s.store"
     instances:
       - mongodb
       
