@@ -8,6 +8,7 @@
     domain_name: "daws-86s.store"
     instances:
       - mongodb
+      - redis
       
   tasks:
     - name: create ec2 instance
