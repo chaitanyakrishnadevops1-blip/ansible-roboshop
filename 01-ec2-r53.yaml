@@ -6,11 +6,12 @@
     sg_id: sg-03ad1decd357277c0
     zone_id: Z07796551BVY32FNM4MO7
     domain_name: "daws-86s.store"
-    instances:
-      - mongodb
-      - redis
-      - mysql
-      - rabbitmq
+    # we can pass instance through command line using -e
+    # instances:
+    #   - mongodb
+    #   - redis
+    #   - mysql
+    #   - rabbitmq
       
   tasks:
     - name: create ec2 instance
