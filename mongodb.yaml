@@ -19,7 +19,7 @@
         regexp: '127.0.0.1'
         replace:  '0.0.0.0'
 
-  -  name:  start and enable service 
+  -  name:  start and enable  mongod service 
      ansible.builtin.package: 
          name: mongod
          state: started 
