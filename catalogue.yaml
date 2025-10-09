@@ -57,10 +57,10 @@
        state: present 
   
   - name: connect to mongodb catalogue 
-    ansible.builtin.command: mongosh mongodb.daws86s.store --quiet --eval "db.getMongo().getDBNames().indexOf('catalogue')")
-    register: catalogue_output 
- 
-  - name: print catalogue output 
-    ansible.builtin.debug: 
+  ansible.builtin.command: mongosh mongodb.daws86s.store --quiet --eval "db.getMongo().getDBNames().indexOf('catalogue')"
+  register: catalogue_output
+
+- name: print catalogue output 
+  ansible.builtin.debug: 
        msg: "{{  catalogue_output }}"
 
