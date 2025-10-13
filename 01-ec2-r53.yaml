@@ -6,7 +6,7 @@
     sg_id: sg-03ad1decd357277c0
     zone_id: Z072528332LMC00MTJ70B
 
-    domain_name: "daws86s.store"""
+    domain_name: "daws-86s.store"
     instances:
       - mongodb
     #   - redis
