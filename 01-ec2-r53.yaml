@@ -7,8 +7,8 @@
     zone_id: Z072528332LMC00MTJ70B
 
     domain_name: "daws86s.store"
-    # instances:
-    #   - mongodb
+    instances:
+      - mongodb
     #   - redis
     #   - mysql
     #   - rabbitmq
