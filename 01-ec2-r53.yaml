@@ -9,9 +9,9 @@
     domain_name: "daws-86s.store"
     instances:
       - mongodb
-    #   - redis
-    #   - mysql
-    #   - rabbitmq
+      - redis
+      - mysql
+      - rabbitmq
     #   - catalogue
       
 
