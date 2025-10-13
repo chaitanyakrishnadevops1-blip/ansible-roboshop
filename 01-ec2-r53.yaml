@@ -5,14 +5,16 @@
     ami_id: ami-09c813fb71547fc4f
     sg_id: sg-03ad1decd357277c0
     zone_id: "Z072528332LMC00MTJ70B"
+
     domain_name: "daws-86s.store"
-    we can pass instance through command line using -e
-    instances:
-    - mongodb
-    - redis
-    - mysql
-    - rabbitmq
-    - catalogue
+    
+    # we can pass instance through command line using -e
+    # instances:
+    # - mongodb
+    # - redis
+    # - mysql
+    # - rabbitmq
+    # - catalogue
   tasks:
     - name: create ec2 instance
       amazon.aws.ec2_instance:
