@@ -69,9 +69,6 @@
   - name: connnect to mongodb catalogue
     ansible.builtin.command: mongosh mongodb.daws-86s.store --quiet --eval "db.getMongo().getDBNames().indexOf('catalogue')"
     register: catalogue_output
-  - name: connnect to mongodb catalogue
-    ansible.builtin.command: mongosh mongodb.daws-86s.store --quiet --eval "db.getMongo().getDBNames().indexOf('catalogue')"
-    register: catalogue_output
  
   - name: print catalogue output
     ansible.builtin.debug:
